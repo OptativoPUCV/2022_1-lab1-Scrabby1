@@ -16,3 +16,8 @@ exercises.c:76:27: error: 'nuevoVector' is used uninitialized in this function [
 cc1.exe: all warnings being treated as errors
 Compilation failed
 5bc84e1
+Sat Mar 12 16:15:08 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+46a8a14
