@@ -48,3 +48,14 @@ exercises.c:76:15: error: assignment from incompatible pointer type [-Werror=inc
 cc1.exe: all warnings being treated as errors
 Compilation failed
 ec139fb
+Sat Mar 12 16:25:17 HSP 2022: 
+ exercises.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearVector':
+exercises.c:76:23: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+    *nuevoVector->datos=NULL;
+                       ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+ff91f11
