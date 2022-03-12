@@ -160,3 +160,9 @@ exercises.c:41:23: error: left-hand operand of comma expression has no effect [-
 cc1.exe: all warnings being treated as errors
 Compilation failed
 fd828dd
+Sat Mar 12 17:39:02 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  8|0
+total_score: 70/70
+39608e4
