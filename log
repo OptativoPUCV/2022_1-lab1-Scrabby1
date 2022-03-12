@@ -5,3 +5,14 @@ Sat Mar 12 16:12:04 HSP 2022:
  tests:  1|6
 total_score: 10/70
 1a1e5d0
+Sat Mar 12 16:14:39 HSP 2022: 
+ exercises.c | 9 ++++++++-
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+test.c: In function 'crearVector':
+exercises.c:76:27: error: 'nuevoVector' is used uninitialized in this function [-Werror=uninitialized]
+    nuevoVector->capacidad = n;
+    ~~~~~~~~~~~~~~~~~~~~~~~^~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+5bc84e1
