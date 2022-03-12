@@ -149,3 +149,14 @@ exercises.c:41:26: error: left-hand operand of comma expression has no effect [-
 cc1.exe: all warnings being treated as errors
 Compilation failed
 3ef30fe
+Sat Mar 12 17:35:52 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaNultimos':
+exercises.c:41:23: error: left-hand operand of comma expression has no effect [-Werror=unused-value]
+    *suma=(a+posInicial,m);
+                       ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+fd828dd
