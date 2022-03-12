@@ -79,8 +79,11 @@ Vector * crearVector(int n) {
    {
       exit(1);
    }
-   nuevoVector->capacidad = n;
-   return nuevoVector;
+   else
+   {
+      nuevoVector->capacidad = n;
+      return nuevoVector;
+   }
 }
 
 /*
