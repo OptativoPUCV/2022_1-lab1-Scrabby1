@@ -72,13 +72,13 @@ typedef struct {
 } Vector;
 
 Vector * crearVector(int n) {
-   Vector *nuevoVector = NULL;
-   nuevoVector->capacidad = n;
+   Vector *nuevoVector;
    nuevoVector->datos=(int*) calloc(n,sizeof(int));
    if(nuevoVector->datos == NULL)
    {
       exit(1);
    }
+   nuevoVector->capacidad = n;
    return nuevoVector;
 }
 
